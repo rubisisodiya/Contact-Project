@@ -1,0 +1,3 @@
+const jwt = require('jsonwebtoken')
+const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YzdjNmUzYWJiYWQ5YzNlZjRiNGI0NzgiLCJ1c2VybmFtZSI6Im1hbWF0YTEyMyIsImNyZWF0ZWRBdCI6MTU1MTc1NzQ4MTEwNCwiaWF0IjoxNTUxNzU3NDgxfQ.uJxmfmKN8rZ_XLso0mqZ3wwwqEeXnrPsr2oRfw8clvE"
+console.log(jwt.verify(token,'jwt@123'))

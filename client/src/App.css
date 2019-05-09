@@ -1,0 +1,49 @@
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-image: url('./images/water.jpg');
+  
+  
+  color: black;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+
+
+.main-header {
+  background-image: url('./images/technology.JPG');
+  background-size: cover;
+  padding: 15px;
+  color: white;
+  font-size: 18px;
+  text-align: right;
+}
+/* --------- Main Navigation --------- */
+.main-nav{
+  background-color:black;
+  overflow: hidden;
+}
+.main-nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.main-nav ul li{
+  float: left;
+}
+.main-nav ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 12px 25px;
+  display: inline-block;
+}
+.main-nav ul li a:hover{
+  background-color:#859372;
+  color: black;
+}
+.main-nav ul li a.active{
+  background-color: #4CAF50;
+}
+
